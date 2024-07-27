@@ -1,0 +1,42 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.navheader{
+    background-color: grey;
+    display: flex;
+}
+.navheader a{
+    /* float:left; */
+    /* show  */
+    display: block; 
+    color:white;
+    text-decoration: none;
+    text-align: center;
+    padding: 8px;
+    font-size: 18px;
+    /* float: left; */
+}
+.navheader .icon{
+    display: none;
+}
+/* 0-600px */
+@media screen and (max-width:600px){
+    body{
+        background-color: red;
+    }
+    
+}
+@media screen and (min-width:601px){
+    body{
+        background-color: yellow;
+    }
+    
+}
+ 
+/* 600px-768px */
+@media screen and (min-width:768px){
+    body{
+    background-color: blue;
+    }
+}

@@ -1,0 +1,104 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.header-nav {
+    margin: 13px;
+}
+img.pw {
+    height: 60px;
+    padding: 11px;
+}
+.search {
+    position: absolute;
+    top: 29px;;
+    left: 237px;
+}
+input.search-bar {
+    width: 759px;
+    padding: 12px 15px 10px 33px;
+    font-size: 17px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+button.Bottom {
+    margin-left: 1083px;
+    width: 183px;
+    height: 40px;
+    font-size: 18px;
+    background: blue;
+    border-radius: 5px;
+    border: none;
+}
+a.magic {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+.header-container {
+    display: flex;
+    font-family: arial;
+}
+p {
+    margin-left: 65px;
+    font-size: 20px;
+    margin-top: -22px;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+.main {
+    background: #f0f8ff26;
+    margin: 26px;
+}
+h3 {
+    color: blue;
+    font-size: 38px;
+    font-family: arial;
+    margin-top: 70px;
+}
+hr {
+    height: 2px;
+    width: 166px;
+    background: #df161696;
+}
+.box_shape {
+    background: #f5cdff29;
+    width: 277px;
+    margin-top: 42px;
+    border-radius: 20px;
+    border: black 1px solid;
+}
+.search_icon{
+    top: 11px;
+    left: 8px;
+    margin-right: 8px;
+    position: absolute;
+}
+.icon{
+    display: inline-block;
+}
+.login_buttton{
+    position: absolute;
+    margin: -68px 0 0 -2px;
+}
+.navbar{
+    margin-bottom: 29px;
+}
+.papers{
+    display: flex;
+    gap: 40px;
+    margin-left: 58px;
+}
+.text_box{
+    position: absolute;
+    margin-top: -60px;
+    margin-left: 100px;
+}
+.dropdown{
+    display:none;
+}
+.header-container p .courses-dropdown:hover .dropdown{
+    display: block;
+}   

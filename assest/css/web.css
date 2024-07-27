@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    font-size: 20px;
+    font-family: Arial;
+    background-color: black;
+    color: aliceblue;
+    padding: 20px;
+    background-image: url(../img/1.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+.nav {
+    height: 144px;
+    margin: -7px;
+}
+.icon {
+    font-size: 21px;
+    font-weight: bold;
+    color: red;
+}
+.menu {
+    height: 40px;
+    float: left;
+}
+.menu ul {
+    display: flex;
+    font-size: 20px;
+    margin-left: 196px;
+    list-style: none;
+    align-items: center;
+}
+ul li{
+        list-style: none;
+        margin-top: -24px;
+        margin-left: 65px;
+        font-size: 20px;
+}
+ul li a{
+        text-decoration: none;
+        color: wheat;
+        transition: 0.5s ease-in-out;
+}
+ul li a:hover{
+    color: #fff;
+}
+.search {
+    /* margin-bottom: -40px; */
+    margin-top: -29px;
+    float: right;
+}
+button.btn {
+    width: 114px;
+    height: 37px;
+    border-radius: 10px;
+    background: #ff6600;
+    font-size: 19px;
+    color: wheat;
+    box-shadow: 0px 4px 8px 0px deepskyblue;
+    cursor: pointer;
+}
+.content {
+    padding-left: 403px;
+}
+.content h2{
+        color: black;
+        font-size: 43px;
+}
+.level {
+    padding-left: 511px;
+    margin-top: 30px;
+}
+input.system {
+    background: #ff6600;
+}
+.level input {
+    height: 77px;
+    width: 109px;
+    font-size: 13px;
+    background: #e5e7ed;
+}
+.based {
+    padding-left: 462px;
+}
+input[type="id"] {
+    height: 33px;
+    width: 339px;
+    margin-top: 40px;
+}
+input.degree {
+    height: 33px;
+    width: 97px;
+    background: #ff6600;
+}
+p {
+    padding-left: 466px;
+    margin-top: 71px;
+    color: black;
+    font-size: 20px;
+}

@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assest/css/pw.css" class="css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+</head>
+<body>
+    <header class="header">     
+        <div class="header_nav">
+            <div class="navbar">
+                <div class="icon">      
+                    <a href="#"><img class="pw" src="./assest/img/pwlogo.png" alt="pwlogo"></a>
+                </div>
+           
+                <div class="search">
+                    <div class="search_icon">                   
+                        <a href="#">
+                            <img class="search-icon" src="./assest/img/search-icon.svg" alt="search-icon">
+                        </a>
+                    </div>
+                    <div class="search_input">
+                        <input class="search-bar" type="text" name="text" placeholder="What do you want to learn?">
+                    </div>
+                   
+                </div>
+                <div class="login_buttton">
+                    <button class="Bottom">
+                        <a class="magic" href="#">Login / Register</a>
+                    </button>
+                </div>
+            </div>
+            <nav class="header-container">
+                
+                <div class="navtab">
+                    <ul>
+                        <li><a href="#">Courses<i class="fa fa-angle-down"></i></a>
+                            <ul class="childul">
+                                <li><a href="#">Html Course<i class="fa fa-angle-right"></i></a>
+                                    <ul class="childul">
+                                        <li><a href="#">Tag course </a></li>
+                                        <li><a href="#">Animation</a></li>
+                                        <li><a href="#">Flex</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Css Course<i class="fa fa-angle-right"></i></a>
+                                    <ul class="childul">
+                                        <li><a href="#">Background-Size</a></li>
+                                        <li><a href="#">Multi-column layout</a></li>
+                                        <li><a href="#">Gradient</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Javascript Course<i class="fa fa-angle-right"></i> </a>
+                                    <ul class="childul">
+                                        <li><a href="#">JS Window</a></li>
+                                        <li><a href="#">JS Screen</a></li>
+                                        <li><a href="#">JS Location</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li><a href="./checkicon.html">PW Skills</a></li>
+                        <li><a href="./checkicon.html">Experience Portal</a></li>
+                        <li><a href="./checkicon.html">Hall Of Fame</a></li>
+                    
+                    </ul>
+                </div>
+                <div class="gridparent">
+                    <ul>
+                        <li> <a href="#" class="parentanchor">More<i class="fa fa-angle-down"></i></a></li>
+                    </ul>
+                   
+                    <div class="gridchlid2">
+                        <ul class="grid">
+                            <li><a href="#">About us</a></li>
+                            <li><a href="#">Contact us</a></li>
+                            <li><a href="#">FAQs</a></li>
+                            <li><a href="#">Job assistance</a></li>
+                            <li><a href="#">Privacy policy</a></li>
+                            <li><a href="#">Terms and conditions</a></li>
+                       </ul>
+                    </div>
+                    
+                </div>
+            </nav>
+        </div>
+    </header> 
+    <div class="main">
+        <div class="slide-left" onclick="goPrev()">
+            <span class="fa fa-angle-left"></span>
+        </div>
+        <div class="slide-right" onclick="goNext()">
+            <span class="fa fa-angle-right"></span>
+        </div>
+        <div class="parentslider">
+            <img src="./assest/img/slider1.jpg" alt="img11" class="slider">
+            <img src="./assest/img/slider2.jpg" alt="img12" class="slider">
+            <img src="./assest/img/slider3.jpg" alt="img13" class="slider">
+            <img src="./assest/img/slider4.jpg" alt="img14" class="slider">
+        </div>
+        <!-- <div class="navbutton">
+            <button onclick="goPrev()">Previous</button>
+            <button onclick="goNext()">Next</button>
+            
+        </div> -->
+            
+        <div class="footer">
+        
+            <div class="our">
+                <div class="text">
+                    <div class="alpha">
+                        <img class="abcd" src="./assest/img/books-icon.svg">
+                    </div>
+                    <h2 class="some">
+                        <span>600+</span>
+                    </h2>
+                    <p class="file">Different Courses</p>
+                </div>
+                <div class="rolled">
+                    <div class="student">
+                        <img class="abcd" src="./assest/img/student-icon.svg">
+                    </div>
+                    <h2 class="some">
+                        <span>700,000+</span>
+                    </h2>
+                    <p class="file">Students enrolled</p>
+                </div>
+                <div class="full">
+                    <div class="work">
+                        <img class="abcd" src="./assest/img/credit-card-icon.svg">
+                    </div>
+                    <h2 class="some">
+                        <span>10,000+</span>
+                    </h2>
+                    <p class="file">Successful Transition</p>
+                </div>
+            </div>
+        </div>
+    </div>  
+    <div class="main2">
+        <h3>Good Evening, There!</h3>
+        <hr class="horizontal-line"></hr>
+        <div class="papers"> 
+            <div class="content box_shape"> 
+                        <div class="alpha">
+                    <a href="#">
+                        <img src="./assest/img/popular-programs.svg">
+                     </a>
+                </div>
+                <p class="text_box">popular-programs</p>
+            </div>
+            <div class="explore box_shape">
+                <div class="afdhg">
+                    <a href="#">
+                        <img src="./assest/img/community-programs.svg">
+                    </a>
+                    <p class="text_box">community-programs</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="logon">
+        <div class="achiever">
+            <h1 class="spaces">Our Achiever's Work with</h1>
+        </div>
+        <div class="group"  onclick="goNext()">
+            <div class="img2">
+                <img class= "cycle_group" src="./assest/img/juntran.png">
+            </div>
+            <div class="img3">
+                <img class= "cycle_group" src="./assest/img/convergytics.png">
+            </div>
+            <div class="img4">
+                <img class= "cycle_group" src="./assest/img/Inferenz.png">
+            </div>
+            <div class="img4">
+                <img class= "cycle_group" src="./assest/img/leventm.png">
+            </div>
+            <div class="img5">
+                <img class= "cycle_group" src="./assest/img/conduent.png">
+            </div>
+            <div class="img6">
+                <img class= "cycle_group" src="./assest/img/livspace.png">
+            </div>
+            <div class="img7">
+                <img class= "cycle_group" src="./assest/img/infogain.png">
+            </div>
+        </div>
+    </div>
+    <div class="fame">
+        <div class="alignment">
+            <h2 class="text2">
+                Hall of fame
+            </h2>
+        </div>
+        <div class="in">
+            <div class="method profile_box">
+                <div class="runge_method">
+                    <img class="teacher-circle" src="./assest/img/gaurav.jpeg">
+                </div>
+                <h2 class="BPO">Gaurav Varma</h2>
+                <p class="data">biocube matric pvt ltd,assistant manager</p>
+                <p class="data2">data analyst</p>
+                <div class="home2">
+                    <a href="#">
+                        <h4>in</h4>
+                    </a>
+                </div>    
+            </div>
+            <div class="tube profile_box">
+                <div class="youtube">
+                    <img class="teacher-circle" src="./assest/img/misra_sir.jpeg">
+                </div>
+                <h2 class="stand">ayushman misra</h2>
+                <p class="study">I have studied form Krish YouTube videos and</p>
+                <p class="study2">ineuron,which helped me to understand the</p>
+                <p class="study3">thorough concepts</p>
+                <div class="home1">
+                    <a href="#">
+                        <h4>in</h4>
+                    </a>
+                </div>    
+            </div>
+            <div class="senior profile_box">
+                <div class="senior_data">
+                    <img class="teacher-circle" src="./assest/img/sai_sir.jpeg">
+                </div>
+                <h2 class="analyst">sai krishna gorantlaa</h2>
+                <p class="srm">tredence analytic, data analyst</p>
+                <p class="got">Hello everyone Iam undergraduate form</p>
+                <p class="got1">SRM University.I got placed in the tredence </p>
+                <div class="home">
+                    <a href="#">
+                        <h4>in</h4>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="stack">
+        <div class="program">
+            <h2 class="demand">Popular Programs</h2>
+            <p class="sigma">Most in demand and watched by people</p>
+        </div>
+        <div class="full-stack">        
+            <div class="bimary course_box">
+                <div class="batch">
+                    <img class="img8"src="./assest/img/web-development.jpg">
+                </div>
+                <p class="hinglish">Full Stack web development</p>
+                <p class="ideas">hitesh choudhary</p>
+                <p class="trick">₹3500.00</p>
+            </div>
+            <div class="design course_box">
+                <div class="system1">
+                    <img class="img8"src="./assest/img/system-design.jpg">
+                </div>
+                <p class="system_design">Java with DSA and system design</p>
+                <p class="never">priya bhatia</p>
+                <p class="trick">₹3500</p>
+            </div>
+            <div class="group1 course_box">
+                <div class="closure">
+                    <img class="img8" src="./assest/img/data-science.jpg">
+                </div>
+                <p class="associativity">Data Science masters</p>
+                <p class="identity">Krish</p>
+                <p class="trick">₹3500</p>
+            </div>
+        </div>
+    </div>
+    <section>
+        <div class="tw-container">
+            <div class="affordable">
+                <h3 class="heading">Affordable Programs</h3>
+                <p class="text-base">Find your favourite courses in pocket-friendly ways.</p>
+            </div>
+            <div class="team-center">
+                <div class="tw-relative">
+                    <div class="view-more">
+                        <img src="./assest/img/data-science.jpg" alt="" class="content_img">
+                        <p class="previous_slide">Data Science masters</p>
+                    </div>
+                    <div class="performance">
+                        <p class="local-disk">Krish</p>
+                        <span class="security">₹3500.00</span>
+                    </div>
+                </div>
+                <div class="tw-relative">
+                    <div class="view1">
+                        <img src="./assest/img/decode.jpg" alt="" class="content_img">
+                        <p class="previous_slide">Decode DSA with C++</p>
+                    </div>
+                    <div class="follow1">
+                        <p class="local-disk">Sanket Singh</p>
+                        <span class="security">₹2750.00</span>
+                    </div>
+                </div>
+                <div class="tw-relative">
+                    <div class="completeA">
+                        <img src="./assest/img/system-design.jpg" alt="" class="content_img">
+                        <p class="previous_slide">Java with DSA and system design</p>
+                    </div>
+                    <div class="collection">
+                        <p class="local-disk">Priya Bhatia</p>
+                        <span class="security">₹3500.00</span>
+                    </div>
+                </div>    
+            </div>
+        </div>
+    </section>
+    <div class="expree">
+        <div class="restful">
+            <h1 class="live">community programs</h1>
+            <h4 class="open">open to all pro-live classes on YouTube for free</h4>
+        </div>
+        <div class="core2">
+            <div class="support square_box">
+                <div class="run">
+                    <img class="number" src="./assest/img/node-js.jpg">
+                </div>
+                <h2 class="developing">developing restful aPIs using </h2>
+                <h2 class="developing">node.js & expree</h2>
+                <p class="core">Vishwa Mohan</p>
+                <p class="denim">FREE</p>
+            </div>
+            <div class="believe square_box">
+                <div class="run">
+                    <img class="number" src="./assest/img/js.jpg">
+                </div>
+                <h2 class="developing">JavaScript Foundations</h2>
+                <p class="edit">Chirag Goel</p>
+                <p class="denim">FREE</p>
+            </div>
+            <div class="shorts square_box">
+                <div class="run">
+                    <img class="number" src="./assest/img/c-foundation.jpg">
+                </div>
+                <h2 class="developing">C Progremming Foundations</h2>
+                <p class="edit2">Raghav Garg</p>
+                <p class="denim">FREE</p>
+            </div>
+        </div>    
+    </div>
+    <div class="charge">
+        <div class="project">
+            <h1 class="products">Our Products</h1>
+        </div>
+        <div class="skill_lab">
+            <div class="manager">
+                <img class="file_manager1" src="./assest/img/neurolab-icon.svg">
+                <h2 class="outline1">PW Skill Lab</h2>
+                <p class="timeline1">supercharge and project development with our robust lab</p>
+            </div>
+            <div class="tools">
+                <img class="file_manager" src="./assest/img/jobPortal-icon.svg">
+                <h2 class="outline">Job Portal</h2>
+                <p class="timeline">Use exception templates for a stand-out resume minus the sign up process</p>
+            </div>
+            <div class="self-paced">
+                <img class="file_manager" src="./assest/img/Internship-icon.svg">
+                <h2 class="outline">Experience portal</h2>
+                <p class="timeline">PW Skills's self-paced experience portal prioritises hands-on training with 570+ intership projects</p>
+            </div>
+        </div>
+    </div>
+    <div class="footer2">
+        <div class="shift">
+            <div class="sfift1">
+                <div class="pwlogobx">
+                    <div class="support_us">
+                        <img class="pwimg" src="./assest/img/PWSkills-white.png">
+                    </div>
+                    <p class="company">
+                       <img class="abcde" src="./assest/img/msg.png">
+                        <span>Email us:</span>
+                        <a href="#" class="company-info">support@pwskills.com</a>
+                    </p>
+                    <div class="icon_button">
+                        <i class="fab fa-facebook-f"></i>
+                        <i class="fab fa-facebook-messenger"></i>
+                        <i class="fab fa-telegram-plane"></i>
+                        <i class="fa fa-comments"></i>
+                        <i class="fas fa-user"></i>
+                        <a href="./assest/img/"></a><i class="fab fa-youtube"></i>
+                    </div>
+
+                    <div class="text-center">
+                        <img class="text2" src="./assest/img/iso.svg">
+                        <p class="center1">ISO 9001</p>
+                    </div>
+                </div>
+               <div class="pwskills">
+                    <div class="index">
+                        <h2 class="spells">PW Skills</h2>
+                        <hr class="underline_PW">
+                    </div>
+                    <div class="inder2">
+                       <ul><li>Contact Us</li></ul>
+                       <ul><li>About Us</li></ul>
+                       <ul><li>Privacy Policy</li></ul>
+                       <ul><li>FAQs</li></ul>
+                       <ul><li>Job Assistance</li></ul>
+                       <ul><li>Terms and Condition</li></ul>
+                    </div>
+                </div>
+                <div class="products">
+                    <div class="index">
+                        <h2 class="spells">Product</h2>
+                        <hr class="underline_PW">
+                    </div>
+                    <div class="lastbox">
+                        <ul><li>Contact Us</li></ul>
+                        <ul><li>About Us</li></ul>
+                        <ul><li>Privacy Policy</li></ul>
+                        <ul><li>FAQs</li></ul>
+                        <ul><li>Job Assistance</li></ul>
+                        <ul><li>Terms & Condition</li></ul>
+                    </div>
+                      
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="chat_container">
+        <i class="fa fa-comments"></i>
+    </div>
+    <script src="./assest/js/script.js"></script>
+</body>
+</html>
